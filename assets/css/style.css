@@ -38,7 +38,14 @@
   align-items: center;
   text-align: center;
 }
-
+.loginslider h5 {
+    color: rgba(255,255,255,.5);
+    font-size: 17px;
+  }
+  .loginslider h3 {
+    color: rgba(255,255,255,1);
+    font-size: 26px;
+  }
 .login-wrapper .carousel-indicators {
   bottom: -40px !important;
 }
@@ -457,7 +464,7 @@
 
 .main-content {
   margin-left: 250px;
-  padding: 20px 0;
+  padding: 10px 0 10px 0;
   width: calc(100% - 220px);
   transition: all 0.3s;
 }
@@ -597,16 +604,16 @@
   min-height: 90vh;
 }
 .table.list-items th {
-  color: #7085a2;
+  color: #7085A2;
   font-size: 14px;
   padding: 12px 6px;
   text-transform: none;
-  background: #f3f8fe;
+  background: #f3f8fe !important;
   font-weight: 300;
   border: 1px solid rgba(156, 175, 222, 0.4);
   border-left: none;
   border-right: none;
-  border-radius: 5px;
+  border-radius: 0px;
   white-space: nowrap;
 }
 .table.list-items th:last-child {
@@ -616,7 +623,7 @@
   border-left: 1px solid rgba(156, 175, 222, 0.4);
 }
 .table.list-items td {
-  color: #7085a2;
+  color: #202F67;
   font-size: 12px;
   padding: 18px 6px;
   text-transform: none;
@@ -634,7 +641,7 @@
 }
 .table-striped > tbody > tr:nth-of-type(odd) > * {
   /* background-color: #F8F9FA !important;  */
-  background-color: #F3F7FB !important;
+  background: #F3F7FB !important;
 }
 
 .btn-upload-wrapper {
@@ -818,4 +825,7 @@ color: #fff;
     font-size: 13px;
     line-height: 1;
     border: 1px solid #1BA829;
+}
+@media only screen and (max-width: 767px) {
+
 }

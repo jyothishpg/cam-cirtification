@@ -37,7 +37,7 @@
     <link href="assets/css/style.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="sidebar-collapsed">
     <div class="top-navbar">
       <img src="assets/images/back.png" alt="" class="back-collapse" />
       <nav
@@ -115,101 +115,96 @@
       <div class="sidebar">
         <div class="sidebar-scroller">
           <ul class="nav">
-            <li class="nav-item avatar">
-              <div class="d-flex align-items-center justify-content-center">
-                <img src="assets/images/avatar.png" alt="" />
-                <div class="user-details">Touchtraks Company</div>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <div class="menu-icon">
-                  <img src="assets/images/menu-1.png" alt="" />
-                </div>
-                <span class="menu-title">Dashboard</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <div class="menu-icon">
-                  <img src="assets/images/menu-2.png" alt="" />
-                </div>
+                    <li class="nav-item avatar">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="assets/images/avatar.png" alt="">
+                            <div class="user-details">
+                                Touchtraks Company
+                            </div>
+                        </div>
 
-                <span class="menu-title">Tracking</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <div class="menu-icon">
-                  <img src="assets/images/menu-3.png" alt="" />
-                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="customer-list.html" class="nav-link">
+                            <div class="menu-icon">
+                                <img src="assets/images/menu-1.png" alt="">
+                            </div>
+                            <span class="menu-title">Cutomer</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="customer/fitment-list.html" class="nav-link">
+                            <div class="menu-icon">
+                                <img src="assets/images/menu-2.png" alt="">
+                            </div>
 
-                <span class="menu-title">Alert</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <div class="menu-icon">
-                  <img src="assets/images/menu-4.png" alt="" />
-                </div>
+                            <span class="menu-title">Fitment</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <div class="menu-icon">
+                                <img src="assets/images/menu-3.png" alt="">
+                            </div>
 
-                <span class="menu-title">Geofence</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <div class="menu-icon">
-                  <img src="assets/images/menu-5.png" alt="" />
-                </div>
+                            <span class="menu-title">Alert</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <div class="menu-icon">
+                                <img src="assets/images/menu-4.png" alt="">
+                            </div>
 
-                <span class="menu-title">Reports</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <div class="menu-icon">
-                  <img src="assets/images/menu-6.png" alt="" />
-                </div>
+                            <span class="menu-title">Geofence</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <div class="menu-icon">
+                                <img src="assets/images/menu-5.png" alt="">
+                            </div>
 
-                <span class="menu-title">Master</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                routerLink="/admin/maintanance/maintananceList"
-                routerLinkActive="active"
-                class="nav-link"
-              >
-                <div class="menu-icon">
-                  <img src="assets/images/menu-7.png" alt="" />
-                </div>
+                            <span class="menu-title">Reports</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <div class="menu-icon">
+                                <img src="assets/images/menu-6.png" alt="">
+                            </div>
 
-                <span class="menu-title">Maintanance</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                routerLink="/admin/garage/garageList"
-                routerLinkActive="active"
-                class="nav-link"
-              >
-                <div class="menu-icon">
-                  <img src="assets/images/menu-8.png" alt="" />
-                </div>
+                            <span class="menu-title">Master</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a routerLink="/admin/maintanance/maintananceList" routerLinkActive="active" class="nav-link">
+                            <div class="menu-icon">
+                                <img src="assets/images/menu-7.png" alt="">
+                            </div>
 
-                <span class="menu-title">Garage</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <div class="menu-icon">
-                  <img src="assets/images/logout.png" alt="" />
-                </div>
+                            <span class="menu-title">Maintanance</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a routerLink="/admin/garage/garageList" routerLinkActive="active" class="nav-link">
+                            <div class="menu-icon">
+                                <img src="assets/images/menu-8.png" alt="">
+                            </div>
 
-                <span class="menu-title">Logout</span>
-              </a>
-            </li>
-          </ul>
+                            <span class="menu-title">Garage</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <div class="menu-icon">
+                                <img src="assets/images/logout.png" alt="">
+                            </div>
+
+                            <span class="menu-title">Logout</span>
+                        </a>
+                    </li>
+                </ul>
         </div>
       </div>
       <div class="main-content">

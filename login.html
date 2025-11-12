@@ -1,164 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cam Track</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-    <head>
-        <meta charset="utf-8">
-        <title>Cam Track</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
 
-        <!-- Libraries Stylesheet -->
+    <!-- Customized Bootstrap Stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-        <!-- Template Stylesheet -->
-        <link href="assets/css/style.css" rel="stylesheet">
-    </head>
-    <body>
-<div class="login-wrapper">
-    <div class="row">
+    <!-- Template Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <div class="row">
         <div class="col-md-6 d-flex align-items-center slidersection">
-            <div class="login-left">
-                <div class="carousel-wrapper">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators"
-                                data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators"
-                                data-bs-slide-to="2"></button>
-                        </div>
-                        <div class="carousel-inner carousel">
-                            <div class="carousel-item active">
-                                <div class="loginslider">
-                                    <div class="anim">
-                                        <img src="assets/images/firstSlide.gif" class="d-block w-100 slide"
-                                            alt="Slide 1">
-                                    </div>
-
-                                    <div class="col text-white">
-                                        <h3 class="text-center text-uppercase mb-2">Welcome to touchtraks</h3>
-                                        <h5 class="text-center">Cutting edge Technology to Track and Manage your Fleet
-                                            on the go. Live information on the status of your fleet wherever you are...
-                                        </h5>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="carousel-item">
-                                <div class="loginslider">
-                                    <div class="anim">
-                                        <img src="assets/images/secondSlide.gif" class="d-block w-100 slide"
-                                            alt="Slide 2">
-                                    </div>
-                                    <div class="col text-white">
-                                        <h3 class="text-center text-uppercase mb-2">Welcome to touchtraks</h3>
-                                        <h5 class="text-center">Cutting edge Technology to Track and Manage your Fleet
-                                            on the go. Live information on the status of your fleet wherever you are...
-                                        </h5>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <div class="carousel-item">
-                                <div class="anim">
-                                    <img src="assets/images/thirdSlide.gif" class="d-block w-100 slide"
-                                        alt="Slide 3">
-                                </div>
-                                <div class="loginslider">
-                                    <div class="col text-white">
-                                       <h3 class="text-center text-uppercase mb-2">Welcome to touchtraks</h3>
-                                        <h5 class="text-center">Cutting edge Technology to Track and Manage your Fleet
-                                            on the go. Live information on the status of your fleet wherever you are...
-                                        </h5>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+          <div class="login-left">
+            <div class="carousel-wrapper">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                  ></button>
                 </div>
+                <div class="carousel-inner carousel">
+                  <div class="carousel-item active">
+                    <div class="loginslider">
+                      <div class="anim">
+                        <img
+                          src="assets/images/firstSlide.gif"
+                          class="d-block w-100 slide"
+                          alt="Slide 1"
+                        />
+                      </div>
+
+                      <div class="col text-white">
+                        <h3 class="text-center text-uppercase mb-2">
+                          Welcome to touchtraks
+                        </h3>
+                        <h5 class="text-center">
+                          Cutting edge Technology to Track and Manage your Fleet
+                          on the go. Live information on the status of your
+                          fleet wherever you are...
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="loginslider">
+                      <div class="anim">
+                        <img
+                          src="assets/images/secondSlide.gif"
+                          class="d-block w-100 slide"
+                          alt="Slide 2"
+                        />
+                      </div>
+                      <div class="col text-white">
+                        <h3 class="text-center text-uppercase mb-2">
+                          Welcome to touchtraks
+                        </h3>
+                        <h5 class="text-center">
+                          Cutting edge Technology to Track and Manage your Fleet
+                          on the go. Live information on the status of your
+                          fleet wherever you are...
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="anim">
+                      <img
+                        src="assets/images/thirdSlide.gif"
+                        class="d-block w-100 slide"
+                        alt="Slide 3"
+                      />
+                    </div>
+                    <div class="loginslider">
+                      <div class="col text-white">
+                        <h3 class="text-center text-uppercase mb-2">
+                          Welcome to touchtraks
+                        </h3>
+                        <h5 class="text-center">
+                          Cutting edge Technology to Track and Manage your Fleet
+                          on the go. Live information on the status of your
+                          fleet wherever you are...
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
         <div class="col-md-6">
-            <div class="login-right">
-                <div class="text-end">
-                    <div class="logo-login">
-                        <img src="assets/images/logo.png" alt="">
-                    </div>
-                </div>
-                <div class="d-flex align-items-center justify-content-center h-100">
-                    <div class="login-form">
-                        <h2 class="text-center text-uppercase fw-bold"> Login</h2>
-                        <h4 class="text-center"> Access your account to track and manage your devices </h4>
-                        <div class="col mb-4 position-relative">
-                            <div class="loginicon">
-                                <img src="assets/images/login_user.svg">
-                            </div>
-                            <input type="text" pinputtext="" formcontrolname="username" id="Username"
-                                class="p-inputtext p-component p-element login_input" placeholder="Username">
-                            <!-- <div class="error-message"> Username is required</div> -->
-                        </div>
-
-                        <div class="col mb-4 position-relative">
-                            <div class="loginicon">
-                                <img src="assets/images/Eye_show.svg">
-                            </div>
-                            <input type="text" pinputtext="" formcontrolname="password" id="password"
-                                class="p-inputtext p-component p-element login_input" placeholder="Password">
-                            <!-- <div class="error-message"> password is required</div> -->
-                        </div>
-
-                        <div class="row">
-                            <div class="col mb-4">
-                                <label class="check-wrapper">
-                                    <input type="checkbox" checked="">
-                                    <span class="checkmark"></span>
-                                    Remember Me
-                                </label>
-                            </div>
-                            <div class="col mb-4 text-end">
-                                <a class="text-secondary"> Forgot Password?</a>
-                            </div>
-                        </div>
-                        <div class="col d-grid gap-2">
-                            <a href="index.html" id="Login" class="btn btn-primary btn-lg"> Login </a>
-                        </div>
-
-                    </div>
-                    
-                </div>
-                <div class="change-language">
-                <form>
-                    <select class="form-select">
-                        <option>English</option>
-                        <option>Arabic</option>
-                    </select>
-                </form>
-                <p class="copy-right">Touchworld Technology © 20025 All Rights Reserved </p>
-                </div>
+          <div class="login-right">
+            <div class="text-end">
+              <div class="logo-login">
+                <img src="assets/images/logo.png" alt="" />
+              </div>
             </div>
-        </div>
-    </div>
-</div>
+            <div class="d-flex align-items-center justify-content-center h-100">
+              <div class="login-form">
+                <h2 class="text-center text-uppercase fw-bold">Login</h2>
+                <h4 class="text-center">
+                  Access your account to track and manage your devices
+                </h4>
+                <div class="col mb-4 position-relative">
+                  <div class="loginicon">
+                    <img src="assets/images/login_user.svg" />
+                  </div>
+                  <input
+                    type="text"
+                    pinputtext=""
+                    formcontrolname="username"
+                    id="Username"
+                    class="p-inputtext p-component p-element login_input"
+                    placeholder="Username"
+                  />
+                  <!-- <div class="error-message"> Username is required</div> -->
+                </div>
 
-<!-- <button (click)="login()">Login</button> -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/script.js"></script>
-</body>
+                <div class="col mb-4 position-relative">
+                  <div class="loginicon">
+                    <img src="assets/images/Eye_show.svg" />
+                  </div>
+                  <input
+                    type="text"
+                    pinputtext=""
+                    formcontrolname="password"
+                    id="password"
+                    class="p-inputtext p-component p-element login_input"
+                    placeholder="Password"
+                  />
+                  <!-- <div class="error-message"> password is required</div> -->
+                </div>
+
+                <div class="row">
+                  <div class="col mb-4">
+                    <label class="check-wrapper">
+                      <input type="checkbox" checked="" />
+                      <span class="checkmark"></span>
+                      Remember Me
+                    </label>
+                  </div>
+                  <div class="col mb-4 text-end">
+                    <a class="text-secondary"> Forgot Password?</a>
+                  </div>
+                </div>
+                <div class="col d-grid gap-2">
+                  <a
+                    href="customer-list.html"
+                    id="Login"
+                    class="btn btn-primary btn-lg"
+                  >
+                    Login
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="change-language">
+              <form>
+                <select class="form-select">
+                  <option>English</option>
+                  <option>Arabic</option>
+                </select>
+              </form>
+              <p class="copy-right">
+                Touchworld Technology © 20025 All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <button (click)="login()">Login</button> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
